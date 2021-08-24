@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="1dp"
+    app:strokeWidth="2dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_View_Project_Icon_one"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/valley_taurus_mountains_turkey" />
+            android:text="Hills" />
+        <TextView
+            android:id="@+id/Text_View_Project_Titel_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_View_Project_Icon_one"
+            android:layout_toEndOf="@+id/image_View_Project_Icon_one"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Mountaints to climb"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_700"
+
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="@color/purple_700"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+
+
+        <ImageView
+            android:id="@+id/image_View_Project_Icon_two"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/image_View_Project_Icon_one"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/valley_taurus_mountains_turkey" />
+        <TextView
+            android:id="@+id/Text_View_Project_Titel_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_View_Project_Icon_two"
+            android:layout_toEndOf="@+id/image_View_Project_Icon_two"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Mountaints to climb"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_700"
+
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="@color/purple_700"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/image_View_Project_Icon_three"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/image_View_Project_Icon_two"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/valley_taurus_mountains_turkey" />
+
+        <TextView
+            android:id="@+id/Text_View_Project_Titel_Three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_View_Project_Icon_three"
+            android:layout_toEndOf="@+id/image_View_Project_Icon_three"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Mountaints to climb"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_700"
+
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="@color/purple_700"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <ImageView
+            android:id="@+id/image_View_Project_Icon_four"
+            android:layout_width="200dp"
+
+            android:layout_height="200dp"
+            android:layout_below="@id/image_View_Project_Icon_three"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/valley_taurus_mountains_turkey" />
+            />
+
+        <TextView
+            android:id="@+id/Text_View_Project_Titel_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/image_View_Project_Icon_four"
+            android:layout_toEndOf="@+id/image_View_Project_Icon_four"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Mountaints to climb"
+            android:textAllCaps="true"
+            android:textColor="@color/teal_700"
+
+            android:textColorHighlight="#FFFFFF"
+            android:textColorHint="@color/purple_700"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
